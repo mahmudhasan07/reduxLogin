@@ -2,7 +2,7 @@
 import { createAsyncThunk, createSelector, createSlice } from '@reduxjs/toolkit';
 import React, { useEffect, useState } from 'react';
 import { getAuth, createUserWithEmailAndPassword, signOut } from "firebase/auth";
-import app from '../Firebase.config';
+import app from '../Firebase.config.jsx';
 
 const initialState = {
     name: '',

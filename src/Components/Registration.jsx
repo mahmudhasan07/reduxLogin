@@ -41,6 +41,7 @@ const Registration = () => {
     return (
         <section className='border-2 w-fit mx-auto my-10 p-2 rounded-lg'>
             <h1 className='text-center text-2xl my-3'>Registration First</h1>
+            <p>Name : {import.meta.env.VITE_Name}</p>
 
             <form onSubmit={handleRegistration} action="">
                 <div className=''>

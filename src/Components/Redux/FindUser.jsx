@@ -1,6 +1,6 @@
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
 import React, { createContext, useEffect } from 'react';
-import app from '../Firebase.config';
+import app from '../Firebase.config.jsx';
 
 
 export const ContextAPI = createContext(null)
