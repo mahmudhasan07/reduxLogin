@@ -21,7 +21,7 @@ const hello = {
 }
 
 
-const createUser = createAsyncThunk(
+const createUser = createAsyncThunk(git 
     "firebase/createUser",
     async ({ email, password }) => {
         console.log(email);
